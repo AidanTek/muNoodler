@@ -7,7 +7,7 @@
       "websiteURL": "http://www.electricnoodlebox.wordpress.com",
       "help":
       {
-        "online": "http://www.arduino.cc/en/Reference/HomePage"
+        "online": "https://github.com/AidanTek/muNoodler"
       },
       "platforms":
       [
@@ -16,7 +16,7 @@
           "architecture": "samd",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "file:///Users/sm21988/Documents/personal_projects/muNoodler/ElectricNoodleBox/muNoodler.zip",
+          "url": "https://github.com/AidanTek/muNoodler/blob/master/ElectricNoodleBox/muNoodler.zip",
           "archiveFileName": "muNoodler.zip",
           "checksum": "SHA-256:d431ae0e6a7b62f153cb2a3775385025bba0ddb91daaac33bd739541fb54b85b",
           "size": "4183708",
