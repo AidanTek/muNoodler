@@ -10,11 +10,11 @@ This needs to be improved, some stuff is OS X specific - this is just for my own
 6. Rename variants directory
 7. Rename top directory and compress
 8. Remove the '__MACOSX/' directory with 
-'''
+```
 zip -d your-archive.zip “__MACOSX*”
-'''
+```
 9. Get sha256 checksum with 
-'''
+```
 shasum -a 256 file.zip
-'''
+```
 10. edit json with checksum and zip file size  
