@@ -1,0 +1,46 @@
+# ENB muNoodler
+# --------------------------------------
+muNoodler.name=ENB µNoodler
+muNoodler.vid.0=0xF055
+muNoodler.pid.0=0x804d
+muNoodler.vid.1=0xF055
+muNoodler.pid.1=0x004d
+
+muNoodler.vid.2=0xF055
+muNoodler.pid.2=0x824d
+# If the board is a 2341:824d use 2341:824d for build and set other parameters as well
+muNoodler.vid.2.build.vid=0xF055
+muNoodler.vid.2.build.pid=0x824d
+muNoodler.vid.2.build.usb_product="ENB µNoodler"
+muNoodler.vid.2.bootloader.file=zero/samd21_sam_ba_genuino.bin
+
+muNoodler.vid.3=0xF055
+muNoodler.pid.3=0x024d
+# If the board is a 2341:024d use 2341:824d for build and set other parameters as well
+muNoodler.vid.3.build.vid=0xF055
+muNoodler.vid.3.build.pid=0x824d
+muNoodler.vid.3.build.usb_product="ENB µNoodler"
+muNoodler.vid.3.bootloader.file=zero/samd21_sam_ba_genuino.bin
+
+muNoodler.upload.tool=bossac
+muNoodler.upload.protocol=sam-ba
+muNoodler.upload.maximum_size=262144
+muNoodler.upload.use_1200bps_touch=true
+muNoodler.upload.wait_for_upload_port=true
+muNoodler.upload.native_usb=true
+muNoodler.build.mcu=cortex-m0plus
+muNoodler.build.f_cpu=48000000L
+muNoodler.build.usb_product="ENB µNoodler"
+muNoodler.build.usb_manufacturer="Electric Noodle Box"
+muNoodler.build.board=SAMD_ZERO
+muNoodler.build.core=arduino
+muNoodler.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+muNoodler.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+muNoodler.build.openocdscript=openocd_scripts/arduino_zero.cfg
+muNoodler.build.variant=muNoodler
+muNoodler.build.variant_system_lib=
+muNoodler.build.vid=0xF055
+muNoodler.build.pid=0x804d
+muNoodler.bootloader.tool=openocd
+muNoodler.bootloader.file=zero/samd21_sam_ba.bin
+
