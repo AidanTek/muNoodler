@@ -65,14 +65,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-26",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 290.0, 290.0, 50.0, 49.0 ],
+					"patching_rect" : [ 290.0, 290.0, 50.0, 35.0 ],
 					"style" : "",
-					"text" : "145 163 142"
+					"text" : "108 106 40"
 				}
 
 			}
