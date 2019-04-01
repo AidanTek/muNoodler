@@ -8,12 +8,19 @@
  */
 
 void setup() {
+  // Check for incoming serial messages
   SerialUSB.begin(115200);
+  
+  // Generate a random seed from an unused analog input
   randomSeed(analogRead(A0));
 }
 
 void loop() {
+  // Generate a random number
   uint16_t rand_n = random(1000);
+
+  // Print it to the native serial port
   SerialUSB.println(rand_n);
+  
   delay(500);
 }
