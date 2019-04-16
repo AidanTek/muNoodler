@@ -29,7 +29,7 @@ void setup() {
   SerialUSB.begin(115200);
 
   // LED setup function:
-  FastLED.addLeds<WS2811, datapin>(leds, totalleds);
+  FastLED.addLeds<WS2812, datapin, GRB>(leds, totalleds);
   
 }
 
